@@ -73,6 +73,7 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 var
   i, j: Integer;
+  s: string;
 begin
   for i:= 0 to cxGrid1TableView2.DataController.FilteredRecordCount - 1 do
   begin
